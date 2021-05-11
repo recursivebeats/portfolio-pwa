@@ -1,5 +1,5 @@
 import { register } from 'register-service-worker'
-import { Store } from '../store'
+import { Store } from '../src/store'
 // The ready(), registered(), cached(), updatefound() and updated()
 // events passes a ServiceWorkerRegistration instance in their arguments.
 // ServiceWorkerRegistration: https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration
