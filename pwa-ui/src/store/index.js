@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import authentication from './authentication'
+import network from './network'
 
 Vue.use(Vuex)
 
@@ -16,7 +17,8 @@ Vue.use(Vuex)
 
   const Store = new Vuex.Store({
     modules: {
-      authentication
+      authentication,
+      network
     },
 
     // enable strict mode (adds overhead!)
