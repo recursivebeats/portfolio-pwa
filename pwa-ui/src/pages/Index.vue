@@ -1,5 +1,6 @@
 <template>
-  <q-page class="flex flex-center">
+  <q-page class="flex flex-center q-pa-sm">
+    <div class="text-h1 text-center">This is my PWA</div>
   </q-page>
 </template>
 
